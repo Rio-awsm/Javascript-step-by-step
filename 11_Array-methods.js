@@ -1,0 +1,22 @@
+let num = [1, 2, 3, 4, 5, 6, 7];
+console.log(num);
+let b = num.toString();
+console.log(b);
+let c = num.join("_");
+console.log(c);
+console.log(typeof c);
+let d = num.pop();
+console.log(num, d);
+num.push(22);
+console.log(num);
+let r = num.shift();
+console.log(r, num);
+let s = num.unshift(100);
+console.log(s, num);
+
+let dig = [2, 44, 67, 889, 34, 22];
+let dig2 = [22, 45, 66, 78, 21];
+delete dig[0];
+console.log(dig);
+let newArray = dig.concat(dig2);
+console.log(newArray);
